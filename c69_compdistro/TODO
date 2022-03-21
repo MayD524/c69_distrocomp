@@ -1,0 +1,45 @@
+(Task Pool):
+- checks 
+  - cpu %, total cores, total memory, total storages
+- config
+- Networking
+- Simple scripting language?
+
+- GUI & http client (JAVA)
+
+- Request:
+- Request Status 
+ - CPU Usage
+ - RAM Usage
+ - isActive (bool)
+
+- "Register"
+ - Machine name
+ - Max CPU Usage
+ - Max Ram Usage
+ - Max storage Usage
+
+Client -> Server
+ - Results
+
+POST /Result
+ -> <result data>
+
+
+Server -> Client
+ - Task
+
+GET /Task
+ -> <task code>
+
+
+GET:
+    - /task
+
+POST:
+    - /result
+    - /register
+    - /status
+(Jerk Pool):
+
+(May Pool):
